@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prachi's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <a href="#" style="color: var(--green); text-decoration: none; font-weight: bold;">P.</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <p class="hero-subtitle">Hi, my name is</p>
+            <h1 class="hero-title">Prachi Priya .</h1>
+            <h2 class="hero-title" style="color: var(--slate); font-size: 3.5rem;">Aspiring Engineer | Creative Thinker</h2>
+            <p class="hero-description">
+                I'm  currently pursuing BTech in Electronics and Communication Engineering at JAIN (Deemed-to-be-University). From Electronics and Communication, I'm diving fast into the fascinating world of technology and its applications.
+
+            </p>
+            <a href="#contact" class="btn">Get In Touch</a>
+        </div>
+        <div class="img-container">
+            <img src="profile.jpg" alt="Prachi's Profile" class="profile-img">
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2 class="section-title">About Me</h2>
+        <div style="display: grid; grid-template-columns: 3fr 2fr; gap: 50px; align-items: start;">
+            <div>
+                <p style="margin-bottom: 1rem;">
+                    Ever since high school, I've been very much into how coding and electronics work together to shape our future and this modern world. I'm looking forward to learning more about it and discovering how I can apply it in real-life situations.
+
+I’m not very much buried into textbooks — you’ll find me exploring life, capturing moments through photography, or fueling my curiosity with TED Talks and podcasts on tech innovations, life, adventures, and much more. Beyond my studies and career interests, I enjoy singing, watching sitcoms, and baking. This balance between studies and personal interests keeps me motivated, engaged, and inspired every day.
+
+I’m excited and open to connect with students, mates, enthusiasts, and more to gain knowledge and life lessons that will help me grow.
+
+                </p>
+                <p style="margin-bottom: 1rem;">
+                    Fast-forward to today, and I've had the privilege of working at various organizations, 
+                    from startups to corporations. My main focus these days is building accessible, 
+                    inclusive products and digital experiences.
+                </p>
+            </div>
+            <div class="skill-card">
+                <h3 style="color: var(--green); margin-bottom: 1rem;">Technologies I work with:</h3>
+                <ul style="list-style: none; columns: 2;">
+                    <li>▹ Java</li>
+                    <li>▹ C++</li>
+                    <li>▹ C</li>
+                    <li>▹ Python</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2 class="section-title">Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <h3 style="color: var(--green); margin-bottom: 1rem;">Python</h3>
+                <p>Skilled in writing clear and efficient Python code for automation, data analysis, and basic application development. Comfortable using libraries like pandas and matplotlib for small-scale projects.</p>
+            </div>
+            <div class="skill-card">
+                <h3 style="color: var(--green); margin-bottom: 1rem;">MS Excel</h3>
+                <p>Proficient in organizing and analyzing data using formulas, pivot tables, charts, and conditional formatting. Able to simplify complex data sets for better decision-making.</p>
+            </div>
+            <div class="skill-card">
+                <h3 style="color: var(--green); margin-bottom: 1rem;">Problem Solving</h3>
+                <p>Strong analytical thinker with a logical approach to tackling challenges. Enjoys breaking down complex problems and finding efficient, real-world solutions.</p>
+            </div>
+            <div class="skill-card">
+                <h3 style="color: var(--green); margin-bottom: 1rem;">C Programming</h3>
+                <p>Proficient in writing efficient and structured code in C, with a solid understanding of pointers, memory management, and data structures. Capable of building optimized solutions for system-level and application-level problems.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact">
+            <p class="contact-title">What's Next?</p>
+            <h2 style="color: var(--lightest-slate); font-size: 3rem; margin-bottom: 1rem;">Let's Work Together!</h2>
+            <p class="contact-description">
+                I'm currently looking for new opportunities, and my inbox is always open. 
+                Whether you have a question or just want to say hi, I'll try my best to get back to you!
+            </p>
+            <form action="https://formspree.io/f/mzzekepo" method="POST" class="contact-form">
+                <div class="form-group">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" name="email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="btn">Contact Me</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Designed & Built by Prachi</p>
+        <p style="margin-top: 1rem; font-size: 0.9rem;">© 2023 All Rights Reserved</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
